@@ -26,27 +26,69 @@ Benefits:
 • Reduced supply chain inefficiencies.
 
 ## Proposed Solution
-Remove These Lines
-1. Detailed explanation of the proposed solution
-2. How it addresses the problem
-3. Innovation and uniqueness of the solution
+An app where farmers sell directly to buyers, with no middlemen.
+
+Today:   Farmer -> Trader -> Agent -> Wholesaler -> Retailer -> Consumer
+
+Ours:    Farmer -> App -> Local Hub -> Buyer
+
+1. Farmer lists crops in the app (voice, local language).
+2. Buyer orders and pays by UPI.
+3. A local hub delivers the order.
+4. AI suggests prices, predicts demand and plans routes
 
 ## Technical Approach
-Remove These Lines
-1. Technologies to be used (e.g. programming languages, frameworks, hardware)
-2. Methodology and process for implementation <b>(Flow Charts/Images/ working prototype)</b>
+
+1. Technologies to be used
+
+* Mobile app and website: Flutter and React
+* Backend: Python (FastAPI) with PostgreSQL
+* AI: Prophet (demand prediction), Google OR-Tools (delivery routes)
+* Payments and maps: UPI and OpenStreetMap
+
+2. Methodology and process for implementation
+
+Flow chart:
+Farmer lists crop in app
+          |
+          v
+AI suggests fair price
+          |
+          v
+Buyer orders and pays by UPI
+          |
+          v
+Local hub picks up the produce
+          |
+          v
+AI plans the delivery route
+          |
+          v
+Buyer receives the order
+          |
+          v
+Farmer is paid directly
+
+Steps to build it:
+
+1. Build a working prototype: list crops, place orders, pay.
+2. Add AI for price tips, demand prediction and delivery routes.
+3. Test with a few FPOs and buyers in one district.
+4. Improve from feedback, then scale.
+
 
 ## Feasibility and Viability
-Remove These Lines
-1. Analysis of the feasibility of the idea
-2. Potential challenges and risks
-3. Strategies for overcoming these challenges
-
+1. Uses simple, low-cost tools.
+2. Challenge: farmers new to apps. Solution: voice support and help from FPOs.
+3. Start with one district.
+ 
 ## Impact and Benefits
-Remove These Lines
-1. Potential impact on the target audience
-2. Benefits of the solution (social, economic, environmental, etc.)
 
+1. Farmers earn more and get paid quickly.
+2. Consumers get fresh produce at lower prices.
+3. Less food waste.
 ## Research and References
 Remove These Lines
-1. Details / Links of the reference and research work
+1. https://agmarknet.gov.in
+2. https://enam.gov.in
+3. https://ondc.org
