@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:25/11/2026
-## Reference Number:26016835
-## Name:KIRAN M R
+# Date: 25/11/2026
+## Reference Number: 26016835
+## Name: KIRAN M R
 
 ## Problem Title
 SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
@@ -49,26 +49,27 @@ Ours:    Farmer -> App -> Local Hub -> Buyer
 2. Methodology and process for implementation
 
 Flow chart:
-Farmer lists crop in app
+```
+  Farmer lists crop in app
           |
           v
-AI suggests fair price
+  AI suggests fair price
           |
           v
-Buyer orders and pays by UPI
+  Buyer orders and pays by UPI
           |
           v
-Local hub picks up the produce
+  Local hub picks up the produce
           |
           v
-AI plans the delivery route
+  AI plans the delivery route
           |
           v
-Buyer receives the order
+  Buyer receives the order
           |
           v
-Farmer is paid directly
-
+  Farmer is paid directly
+```
 Steps to build it:
 
 1. Build a working prototype: list crops, place orders, pay.
