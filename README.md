@@ -1,7 +1,7 @@
 # Smart India Hackathon Workshop
-# Date:
-## Reference Number:
-## Name:
+# Date:25/11/2026
+## Reference Number:26016835
+## Name:KIRAN M R
 
 ## Problem Title
 SIH 26033: Multiple intermediaries reduce farmers earnings and increase consumer prices.
@@ -14,7 +14,7 @@ Agriculture, FoodTech & Rural Development
 
 ## Problem Description
 Expected Solution: Create a digital marketplace that:
-
+```
 • Connects farmers/FPOs directly with consumers and bulk buyers.
 • Provides logistics support.
 • Uses AI for demand forecasting and route optimization.
@@ -24,7 +24,7 @@ Benefits:
 • Better prices for farmers.
 • Lower prices for consumers.
 • Reduced supply chain inefficiencies.
-
+```
 ## Proposed Solution
 An app where farmers sell directly to buyers, with no middlemen.
 
